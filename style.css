@@ -30,3 +30,25 @@ nav {
 section h1 {
   text-align: center;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  margin: 10px auto;
+  height: 250px;
+  width: 80%;
+  padding: 10px;
+}
+
+input {
+  padding: 10px 20px;
+  background-color: yellowgreen;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 80%;
+  margin: 10px auto;
+}
